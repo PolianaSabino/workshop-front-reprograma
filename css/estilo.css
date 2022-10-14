@@ -1,0 +1,124 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* cabeçalho */
+
+.banner {
+    align-items: center;
+    background-image: url(../imagens/meu-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+}
+
+h1, body {
+    margin: 0;
+}
+
+.banner h1, .banner p {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 50px;
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    border-color: #7E4598;
+    border-radius: 30px;
+    color: #7E4598;
+    font-size: 14pt;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #d8a6f0;
+
+}
+
+/* descrição */
+
+h2 {
+    color: #C4C4C4;
+    font-size: 35px;
+}
+
+.descricao, .habilidades {
+    display: inline-block;
+    text-align: justify;
+    width: 40%;
+    padding: 20px;
+}
+
+.descricao button {
+    border-color: #7E4598;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 16px -3px #7E4598; 
+    box-shadow: 0px 0px 16px -3px #7E4598;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10pt;
+    text-transform: none;
+}
+
+.sobre {
+    padding: 40px;
+}
+
+.habilidades{
+    margin-left: 110px;
+    background-color: #d8a6f0;
+    background-image: url("https://media.giphy.com/media/JhviKMvgyqyERPBRTJ/giphy.gif");   
+}
+
+h3 {
+    color: black;
+    text-align: left;
+}
+
+/* footer */
+
+.redes-sociais {
+    -webkit-box-shadow: 0px 0px 16px -3px #7E4598; 
+    box-shadow: 0px 0px 16px -3px #7E4598;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 30px;
+    padding: 20px ;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+}
+
+.redes-sociais-botao {
+    background-color: #7E459B;
+    width: 20%;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: 60px;
+}
+
+.redes-sociais-botao h4 {
+    color: white;
+    font-size: 10px;
+}
+
+.redes-sociais-botao p {
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+}
