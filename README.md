@@ -1,2 +1,1 @@
-# whorkshop-reprograma
-# whorkshop-reprograma
+# workshop-reprograma
