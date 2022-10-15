@@ -1,2 +1,1 @@
-# workshop-reprograma
 # projeto-reprograma
