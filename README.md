@@ -1,1 +1,1 @@
-Participei da office relizada pelo Reprograma em julho de 2022. Participando assim do processo seletivo paa o programa.
+Participei do processo seletivo do Reprograma em julho de 2022 
